@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     optimizeDeps: {
       include: ['vue', 'vue-router'],
     },
+    experimental: {
+      enableNativePlugin: true,
+    },
   },
 
   css: ['~/assets/css/main.css'],
